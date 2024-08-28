@@ -1,0 +1,202 @@
+
+nav {
+    background-color: #f2f2f2; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px; 
+  }
+  
+  nav img {
+    border-radius: 70%;
+    width: 150px; 
+    height: 150px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 15px;
+    text-align: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+
+  .A {
+    text-align: center;
+    background-color: #f2f2f2; 
+    padding: 20px;
+    background-image: url(HE/hhhh.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .A h1 {
+    font-size: 50px;
+    text-align: right;
+    text-shadow: #333;
+    margin-right: 20%;
+  }
+  
+  .A blockquote {
+    font-style: italic;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 20%;
+  }
+  .A p{
+    font-size: 15px;
+    text-align: right;
+    margin-left: 30%;
+    text-overflow: hidden;
+  }
+
+button,
+button:focus {
+  font-size: 17px;
+  padding: 10px 25px;
+  border-radius: 0.7rem;
+  background-image: linear-gradient(rgb(214, 202, 254), rgb(158, 129, 254));
+  border: 2px solid rgb(50, 50, 50);
+  border-bottom: 5px solid rgb(50, 50, 50);
+  box-shadow: 0px 1px 6px 0px rgb(158, 129, 254);
+  transform: translate(0, -3px);
+  cursor: pointer;
+  transition: 0.2s;
+  transition-timing-function: linear;
+}
+
+button:active {
+  transform: translate(0, 0);
+  border-bottom: 2px solid rgb(50, 50, 50);
+}
+
+.B{
+  background: url(HE/hhhhh.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.B h1{
+  font-size: 50px;
+  text-align: left;
+  text-shadow: #333;
+  margin-left: 20%;
+}
+
+.B p{
+  font-size: 20px;
+  text-align: left;
+  text-shadow: #333;
+}
+
+.B blockquote{
+  font-style: italic;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 20%;
+}
+.C h1 {
+  font-size: 50px;
+  text-align: right;
+  text-shadow: #333;
+  margin-right: 20%;
+}
+
+.C blockquote {
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+}
+.C h3{
+  font-size: 30px;
+  text-align: center;
+  text-overflow: hidden;
+  margin-left: 5%;
+}
+.C {
+  text-align: center;
+  background-color: #f2f2f2; 
+  padding: 20px;
+  background-image: url(HE/hhhh.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.D h1 {
+  font-size: 50px;
+  text-align: center;
+  text-shadow: #333;
+  margin-right: 20%;
+}
+
+.D blockquote {
+  font-style: italic;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 10%;
+}
+.D h3{
+  font-size: 30px;
+  text-align: left;
+  text-overflow: hidden;
+  margin-left: 10%;
+}
+.D {
+  text-align: center;
+  background-color: #f2f2f2; 
+  padding: 20px;
+  background-image: url(HE/hhhhh.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.D h4{
+  font-size: 30px;
+  text-align: left;
+  text-overflow: hidden;
+  margin-left: 10%;
+}
+.contact-me {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.contact-card {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.contact-card:hover {
+  transform: scale(1.05);
+}
+
+.contact-card i {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.contact-card p {
+  margin: 0;
+}
+.contact-me h1{
+  font-size: 40px;
+}

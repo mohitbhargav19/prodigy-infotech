@@ -1,0 +1,35 @@
+/* Customize the styles to your preference */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background: url(images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+header img{
+    border-radius: 80%;
+    height: 250px;
+}
+
+.location-input {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.weather-info {
+    text-align: center;
+    margin-top: 30px;
+}
+.weather-box{
+    padding: 20px;
+    text-align: center;
+    color: aqua;
+    border: 30px;
+    border-color: chartreuse;
+
+}
